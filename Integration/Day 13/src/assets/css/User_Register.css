@@ -1,0 +1,77 @@
+/* components/Admin_Login.css */
+
+.signup-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  justify-content: center;
+  padding-top: 54px;
+   /* Move the container to the right */
+}
+
+.signup-form {
+  width: 28%; /* Adjust the width as needed */
+  padding: 1.6rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.signup-title {
+  margin-top: 0;
+  font-size: 30px;
+}
+
+.signup-form-group {
+  margin-bottom: 0.3rem;
+}
+
+.signup-form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.signup-form-check {
+  margin-bottom: 1rem;
+}
+
+.signup-options {
+  margin-top: 1rem;
+}
+
+.or-signup {
+  margin: 0.5rem 0;
+  font-size: 0.8rem;
+  color: #6c757d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup a{
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup a:hover {
+  text-decoration: none;
+}
+
+.signup-side-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24%;
+  height:88.5%;
+  background-color: white;
+}
+
+.signup-side-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

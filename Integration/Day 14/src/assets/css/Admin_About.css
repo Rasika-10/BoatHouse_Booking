@@ -1,0 +1,144 @@
+.adminabout-us-container {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  padding-left: 310px;
+ 
+
+}
+
+.adminabout-us-service {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.adminabout-us-header {
+  font-size: 2rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.adminabout-us-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.adminabout-us-text {
+  flex: 1;
+  font-size: 1rem;
+  overflow-y: auto;
+  line-height: 1.5;
+  padding-top: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.adminabout-us-image {
+  width: 50%;
+  padding: 1rem;
+}
+
+.adminabout-us-image img {
+  width: 100%;
+  height: auto;
+}
+
+.adminabout-edit-button {
+  background-color: #326169; /* Blue background color */
+  color: rgb(244, 236, 236); /* White text color */
+  padding: 10px 20px; /* Padding around the text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor style on hover */
+  font-size: 16px; /* Font size */
+}
+
+.edit-button-container {
+  margin-left: 320px; /* Move the edit button to the right */
+}
+
+.adminabout-edit-button:hover {
+  background-color: #1f706c; /* Darker blue on hover */
+}
+
+.adminabout-us-text textarea {
+  width: 100%;
+  height: 45%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 14px; /* Adjust font size as needed */
+  line-height: 1.4; /* Adjust line height as needed */
+  resize: vertical; /* Allow vertical resizing */
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.save-button,
+.cancel-button,
+.adminabout-edit-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 8px 16px; /* Adjust padding for smaller buttons */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px; /* Adjust font size for smaller buttons */
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  background-color: #45a049;
+}
+
+.adminabout-edit-button {
+  background-color: #21626a;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.adminabout-edit-button:hover {
+  background-color: #23758a;
+}
+.cancel-button {
+  background-color: #f44336; /* Red color */
+}
+
+.cancel-button:hover {
+  background-color: #d32f2f; /* Darker red color on hover */
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .adminabout-us-content {
+    flex-direction: column;
+  }
+
+  .adminabout-us-text {
+    padding: 0;
+  }
+
+  .adminabout-us-image {
+    width: 100%;
+    padding: 1rem 0;
+  }
+}

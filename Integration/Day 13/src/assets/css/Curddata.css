@@ -1,0 +1,101 @@
+
+
+.adminCard-container-data {
+  width: 100%;
+  margin: 15px auto;
+
+ 
+}
+
+.userdashboard-row
+{
+  padding-left: 70px;
+}
+.adminCard-card {
+  border: none;
+  border-radius: 1px;
+  box-shadow: 2px 4px 8px  rgba(102, 101, 101, 0.6);
+  padding: 20px;
+  background: linear-gradient(135deg, #fbfbfb, #fbfbfb); /* Light Grey to White gradient */
+}
+
+.adminCard-admin-card {
+  background-color: #fbfbfb; /* White background color for admin card */
+}
+
+.adminCard-card-title {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+.btn {
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-success {
+  background-color: #4caf50; /* Green success button color */
+  color: #fff;
+  text-decoration: none;
+  
+}
+
+.btn-secondary,
+.btn-danger {
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #757575; /* Dark Grey secondary button color */
+}
+
+.btn-danger {
+  background-color: #e74c3c; 
+  text-decoration: none;/* Red danger button color */
+}
+
+/* Hover styles for buttons */
+.btn:hover {
+  background-color: #2f89bd; /* Dark background color on hover */
+  color: #fff;
+}
+
+.adminCard-table {
+  width: 100%;
+  margin-top: 15px;
+  border-collapse: collapse;
+  padding: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.adminCard-table th,
+.adminCard-table td 
+ {
+  text-align: center;
+  padding: 6px;
+  border: 1px solid #ddd;
+  font-size:15px;
+}
+
+.adminCard-bg-primary {
+  background-color: #3498db; /* Primary color for header */
+  color: #fff;
+}
+
+/* Responsive styles for small screens */
+@media (max-width: 767px) {
+  .adminCard-container-data {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .adminCard-btn {
+    font-size: 14px;
+  }
+}

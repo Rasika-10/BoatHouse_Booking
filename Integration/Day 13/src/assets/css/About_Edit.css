@@ -1,0 +1,61 @@
+.about-edit-container {
+    background-color: #676d6f;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto; /* Adjust the top and bottom margins */
+    margin-left: 370px;
+  /* Adjust the left margin to move the container slightly to the left */
+}
+
+  
+  .about-edit-container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #000000;
+    text-align: center;
+  }
+  
+  .about-edit-container label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 8px;
+    color: #000000;
+  }
+  
+  .about-edit-container input[type="text"],
+  .about-edit-container textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .about-edit-container textarea {
+    height: 80px;
+  }
+  .about-edit-container button {
+    margin-right: 10px; /* Add space between buttons */
+  }
+  
+  .about-edit-container button.save-button {
+    background-color: #28a745; /* Green color for Save button */
+  }
+  
+  .about-edit-container button.cancel-button {
+    background-color: #dc3545; /* Red color for Cancel button */
+  }
+  
+  .about-edit-container button:hover {
+    background-color: #135724; /* Darker green color on Save button hover */
+  }
+  
+  .about-edit-container button.cancel-button:hover {
+    background-color: #9f2f39; /* Darker red color on Cancel button hover */
+  }
+  

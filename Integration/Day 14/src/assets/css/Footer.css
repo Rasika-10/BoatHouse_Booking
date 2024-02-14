@@ -1,0 +1,120 @@
+.footer {
+    background-color: white;
+    color: #000000;
+    padding: 15px 0;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  .footer .footer__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+  }
+  
+  .footer .footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1100px;
+    margin-bottom: 0px;
+    opacity: 1;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer .footer__left {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+  }
+  
+  .footer .footer__left p {
+    font-size: 14px;
+    color: #000000;
+    opacity: 0.7;
+    align-items: left;
+    margin-top: 10px;
+    width: 70%;
+    transition: opacity 0.3s ease;
+  }
+  
+  .footer .footer__right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer .footer__nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer .footer__nav-item {
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer .footer__nav-link {
+    color:#000000;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+  }
+  
+  .footer .footer__nav-link:hover {
+    opacity: 1;
+  }
+  
+  .footer .footer__social {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+  }
+  
+  .footer .footer__social-item {
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer .footer__social-link {
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer .footer__social-link:hover i {
+    transform: translateX(5px);
+  }
+  
+  .footer .footer__copyright {
+    font-size: 14px;
+    color: #000000;
+    opacity: 0.7;
+    margin-top: 10px;
+    transition: opacity 0.3s ease;
+  }
+  
+  .footer:hover .footer__content {
+    transform: translateY(-5px);
+  }
+  
+  .footer:hover .footer__left p,
+  .footer:hover .footer__copyright {
+    opacity: 1;
+  }
+  
+  .footer:hover .footer__nav-item,
+  .footer:hover .footer__social-item {
+    transform: translateY(-3px);
+  }
+  
+  .footer:hover .footer__nav-link,
+  .footer:hover .footer__social-link {
+    opacity: 1;
+  }

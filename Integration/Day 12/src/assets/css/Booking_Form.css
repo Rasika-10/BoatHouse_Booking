@@ -1,0 +1,60 @@
+/* BookingForm.css */
+
+.booking-form-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    padding-left: 38px;
+    border: 1px solid lightgray;
+  
+  }
+  
+  .form-header {
+    text-align: left;
+    color: #333;
+    padding-left: 140px;
+    margin-bottom: 15px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .submit-button {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .close-button {
+    background: #bb411b;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .bookingclose-btn
+  {
+    padding-left: 3px;
+  }
+
+  .disabled-date {
+    background-color: red;
+  }
+  

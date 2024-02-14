@@ -1,0 +1,68 @@
+/* components/Admin_Login.css */
+
+  .signin-container {
+    display: flex;
+    height: 67vh;
+    margin-top: 140px;
+    justify-content: center;
+  }
+  
+  .signin-form {
+    width: 24%;
+    padding: 2rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signin-title {
+    margin-top: 0;
+  }
+  
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  
+  
+  .form-check {
+    margin-bottom: 1rem;
+  }
+  
+  .signin-options {
+    margin-top: 1rem;
+  }
+  
+  .or-signin {
+    margin: 0.5rem 0;
+    font-size: 0.8rem;
+    color: #6c757d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  
+  
+  .side-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24%;
+    background-color: white;
+  }
+  
+  .side-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }

@@ -1,0 +1,278 @@
+/* List.css */
+
+.listContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding-left: 240px; 
+  
+}
+
+.listWrapper {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  gap: 20px;
+}
+
+
+
+.listResult {
+  flex: 3;
+}
+
+.searchItem {
+  border: 1px solid lightgray;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+  width: 80%; /* or adjust accordingly */
+  //* Adjust this value to control the width */
+}
+
+.siImg {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.siDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 2;
+}
+
+.siTitle {
+  font-size: 20px;
+  color: #0071c2;
+}
+
+.siDistance {
+  font-size: 12px;
+}
+
+.siTaxiOp {
+  font-size: 12px;
+  background-color: #008009;
+  color: white;
+  width: max-content;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.siSubtitle {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.siFeatures {
+  font-size: 12px;
+}
+
+.siCancelOp {
+  font-size: 12px;
+  color: #008009;
+  font-weight: bold;
+}
+
+.siCancelOpSubtitle {
+  font-size: 12px;
+color: black;
+}
+.siAvailable {
+  font-size: 12px;
+  color:white;
+}
+
+.siDetails {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.siRating {
+  display: flex;
+  justify-content: space-between;
+  color: #FFD700; /* Gold color for stars */
+}
+
+.siRating > span {
+  font-weight: 500;
+}
+
+.siRating > button,
+.siDetailTexts button {
+  background-color: #0071c2;
+  color: white;
+  padding: 8px 15px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 5px;
+  transition: background-color 0.3s;
+}
+
+.siRating > button:hover,
+.siDetailTexts button:hover {
+  background-color: #005082; /* Darker shade on hover */
+}
+
+
+button.edit-btn {
+  background-color: #406071; /* Orange color for edit button */
+}
+
+button.edit-btn:hover {
+  background-color: #005082; /* Darker shade on hover */
+}
+button.add-btn {
+  background-color: #2f7a3a; /* Orange color for edit button */
+}
+
+button.add-btn:hover {
+  background-color: #3ca562; /* Darker shade on hover */
+}
+
+button.delete-btn {
+  background-color: #ed004f; /* Pink color for delete button */
+}
+
+ button.delete-btn:hover {
+  background-color: #ad1457; /* Darker shade on hover */
+}
+
+.siDetailTexts {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: end;
+}
+
+.siPrice {
+  font-size: 24px;
+}
+
+.siTaxOp {
+  font-size: 12px;
+  color: gray;
+}
+
+.add-btn,
+.edit-btn,
+.delete-btn {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+
+.siRating > button.edit-btn:hover,
+.siRating > button.delete-btn:hover {
+  background-color: #005082;
+}
+
+
+.filterContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter-icon {
+  background-color: #3a4141;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.filter-dropdown {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+}
+
+.filter-dropdown label {
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+}
+
+.filter-dropdown input,
+.filter-dropdown select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 4px;
+ 
+}
+
+.sort-dropdown select {
+  background-color: #dfdfdf;
+  color: rgb(6, 6, 6);
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+
+.search-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.pagination button {
+  background-color: #8e8d8d;
+  color: rgb(6, 6, 6);
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 10px 15px;
+  margin: 0 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pagination button[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.pagination button:hover {
+  background-color: #525151;
+}
+
+.pagination button svg {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.pagination button:last-child {
+  margin-left: 10px;
+}

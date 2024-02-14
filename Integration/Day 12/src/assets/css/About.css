@@ -1,0 +1,215 @@
+.about-container
+{
+ padding-top: 35px;
+}
+.about-us-container {
+    display: flex;
+    flex-direction: column;
+  
+    padding: 5rem;
+  }
+.about-us-service {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+ 
+  }
+  
+  .about-us-header {
+    font-size: 2rem; 
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  
+ 
+  
+  .about-us-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  
+    
+
+  }
+  
+  .about-us-text {
+    flex: 1;
+    font-size: 1rem;
+    overflow-y: auto;
+    line-height: 1.5;
+  padding-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .about-us-image {
+    width: 65%;
+    padding: 1rem;
+  }
+  
+  .about-us-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .about-us-content {
+      flex-direction: column;
+    }
+  
+    .about-us-text {
+      padding: 0;
+    }
+  
+    .about-us-image {
+      width: 100%;
+      padding: 1rem 0;
+    }
+  }
+  .features-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+   
+  }
+  
+  .features-content {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+  
+  .feature-item {
+    flex: 1 0 15%;
+    font-size: 1.0rem;
+    overflow-y: auto;
+    line-height: 1.3;
+    text-align: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    transition: transform 0.3s ease; /* Add transition for a smooth effect */
+  }
+
+  .feature-item h3
+  {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .feature-item:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+  }
+  
+  .feature-item img {
+    width: 35%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .feature-item h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .features-image {
+    width: 30%;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .features-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .features-container {
+      flex-direction: column;
+    }
+  
+    .features-content {
+      width: 100%;
+    }
+  
+    .feature-item {
+      width: 100%;
+      flex: none;
+    }
+  
+    .features-image {
+      width: 100%;
+      padding: 1rem 0;
+    }
+  }
+  
+  .aboutus-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 960px;
+    margin:0px auto;
+    padding-top: 47px;
+  }
+  
+  .aboutus-item {
+    flex-basis: calc(33% - 40px);
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .aboutus-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #b5b5b5;
+    border-radius: 0px;
+    overflow: hidden;
+  }
+  
+  /* .home-card-image {
+    width: 90%;
+    height: 200px;
+    object-fit: contain;
+    padding-left: 30px;
+  
+  } */
+  .aboutus-card-image {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+  
+   
+  
+  }
+   
+  .aboutus-item:hover {
+    border: 1px solid #777;
+
+  }
+  
+  
+  .aboutus-card-content {
+    padding: 10px;
+    height: auto;
+  
+    
+    
+  }
+  
+  .aboutus-card-title {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  .aboutus-card-description {
+    font-size: 1rem;
+    text-align: left;
+    font-family:"Poppins";
+    line-height: 1.3;
+    padding: 5px;
+    
+  }

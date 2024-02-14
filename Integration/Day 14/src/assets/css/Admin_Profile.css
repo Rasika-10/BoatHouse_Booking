@@ -1,0 +1,145 @@
+/* assets/css/User_Profile.css */
+
+.main-container {
+  display: flex;
+  align-items: stretch;
+
+}
+
+.profile-main
+{
+  text-align: left;
+}
+
+.profile-move {
+  padding-left: 430px;
+  padding-top: 40px;
+
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 250px;
+  height: 350px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.profile-card:hover {
+  transform: scale(1.01);
+}
+
+.profile-image {
+  width: 45%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.profile-image img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.profile-details {
+  padding: 20px;
+  text-align: center;
+  font-family: bold;
+}
+
+.profile-details h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem; 
+  font-family: bold;
+}
+
+.profile-details p {
+  margin: 8px 0;
+  font-size: 1rem;
+  font-family: bold;
+}
+
+.input-group {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+margin-top: 25px;
+font-family: bold;
+
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size:17px;
+  font-family: bold;
+
+}
+
+
+.edit-btn {
+  background-color: #0071c2;
+  color: white;
+  padding: 8px 15px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+.save-btn{
+  background-color: #2b8b35;
+  color: white;
+  padding: 8px 15px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+.close-btn{
+  background-color: #cc5e3c;
+  color: white;
+  padding: 8px 15px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+ 
+}
+.close-btn-move
+{
+  padding-left: 6px;
+}
+
+.edit-btn:hover {
+  background-color: #005082; /* Darker shade on hover */
+}
+
+.save-btn:hover {
+  background-color: #488f4f; /* Darker shade on hover */
+}
+.close-btn:hover {
+  background-color: #b3623c; /* Darker shade on hover */
+}
+
